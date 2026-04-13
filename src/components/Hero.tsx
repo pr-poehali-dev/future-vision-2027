@@ -32,9 +32,17 @@ export default function Hero() {
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90 drop-shadow">
           Подготовка строительных площадок и разработка котлованов любой сложности
         </p>
-        <button className="mt-8 bg-white text-black px-8 py-3 uppercase tracking-wide text-sm font-semibold hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
-          Получить расчёт
-        </button>
+        <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+          <button className="bg-white text-black px-8 py-3 uppercase tracking-wide text-sm font-semibold hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
+            Получить расчёт
+          </button>
+          <a
+            href="tel:+79000164053"
+            className="bg-transparent text-white border border-white px-8 py-3 uppercase tracking-wide text-sm font-semibold hover:bg-white hover:text-black transition-colors duration-300 text-center"
+          >
+            Позвонить
+          </a>
+        </div>
       </div>
     </div>
   );
